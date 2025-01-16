@@ -8,7 +8,7 @@ function fibonacci(num) {
 		let curr = a+b;
 		    a = b;
 		    b = curr;
-		    n--;
+		    num--;
 	}
 	return b;
 }
